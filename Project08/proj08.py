@@ -1,21 +1,4 @@
-###########################################################
-#  """
-# def prompt_init_crossword():
-#  takes in user input for the filename of the crossword puzzle:
-#   initializes the crossword from filename 
-#     if the file is not found, print error message   
-# def display clues
-#  clues = crossword.clues
-#  initializes 2 lists for down and accross clues
-#  in case count = 0, total clues = count
-#  for indices and respective clue in all clues
-#   if len clue < count and > 0
-#     append to respective list
-#   print clues according to input
-# def get_and_validate_cmds(param: crossword, input):
-#  split user input
-#  user command = first character of input
-###########################################################
+
 from force import ForceCalculator
 import sys
 
@@ -52,11 +35,7 @@ MENU = '''\n:~Net Force Calculator Program
 
 def prompt_num(prompt):
     """
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
+
     """
     while True:
         user_input = (input(prompt))
