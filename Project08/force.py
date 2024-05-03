@@ -11,19 +11,9 @@ import math
 
 class Force(object):
     """
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
     """
     def __init__(self, magnitude=0, angle=0):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         self.magnitude = magnitude
         self.angle = angle
@@ -31,31 +21,16 @@ class Force(object):
 
     def get_magnitude(self):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         return self.magnitude
 
     def get_angle(self):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         return self.angle
 
     def get_components(self):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         x = self.magnitude * math.cos(math.radians(self.angle))
         y = self.magnitude * math.sin(math.radians(self.angle))
@@ -65,11 +40,6 @@ class Force(object):
 
     def __str__(self):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         return "Magnitude: {:.2f}\nAngle: {:.2f}".format(
             self.magnitude, self.angle
@@ -78,11 +48,6 @@ class Force(object):
         
     def __eq__(self, other):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO  
         """
         if not isinstance(other, Force):
             raise RuntimeError("Operand is not a Force instance")
@@ -95,11 +60,6 @@ class Force(object):
     
     def __add__(self, other):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         if not isinstance(other, Force):
             raise RuntimeError("Operand is not a Force instance")
@@ -131,41 +91,21 @@ class Force(object):
 class ForceCalculator(object):
 
     """
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
-    I LOVE POKEMON GO
     """
 
     def __init__(self, forces=None):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         self.forces = {} if forces is None else forces
 
     def get_forces(self):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         return self.forces
         
 
     def add_force(self, name, magnitude, angle):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         if name in self.forces:
             raise RuntimeError(f"\nForce object {name} already exists!")
@@ -175,11 +115,6 @@ class ForceCalculator(object):
     
     def remove_force(self, name):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         if name not in self.forces:
             raise RuntimeError(f"\nForce object {name} does not exist!")
@@ -187,11 +122,6 @@ class ForceCalculator(object):
 
     def __getitem__(self, name):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         try:
             return self.forces[name]
@@ -200,11 +130,6 @@ class ForceCalculator(object):
 
     def compute_net_force(self):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         if len(self.forces) == 0:
             return Force()
@@ -216,11 +141,6 @@ class ForceCalculator(object):
 
     def __str__(self):
         """
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
-        I LOVE POKEMON GO
         """
         force_str = ""
         for index, name in enumerate(self.forces):
