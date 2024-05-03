@@ -1,0 +1,13 @@
+
+Welcome to SpaceX Galactic Car Extravaganza!
+
+Prepare for an interstellar joyride with our cosmic cruisers!
+At the prompt, please enter:
+- Galactic code (XV, ET, SI)
+- Days of your interstellar joyride
+- Odometer at liftoff
+- Odometer at touchdown
+
+Ready for an out-of-this-world adventure (Y/X)? X
+
+Thank you for entrusting us with your joyride!

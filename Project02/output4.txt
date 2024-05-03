@@ -1,0 +1,47 @@
+
+Welcome to SpaceX Galactic Car Extravaganza!
+
+Prepare for an interstellar joyride with our cosmic cruisers!
+At the prompt, please enter:
+- Galactic code (XV, ET, SI)
+- Days of your interstellar joyride
+- Odometer at liftoff
+- Odometer at touchdown
+
+Ready for an out-of-this-world adventure (Y/X)? Y
+
+Galactic code (XV, ET, SI): SI
+
+Number of days (int): 8
+
+Odometer at liftoff (int): 000100
+
+Odometer at touchdown (int):   040100
+
+Galactic traveler summary:
+	Code: SI
+	Days in orbit: 8
+	Liftoff odometer: 100
+	Touchdown odometer: 40100
+	Light-years traveled: 4000.0
+	Cost in star credits: $ 1030.0
+Ready for an out-of-this-world adventure (Y/X)? Y
+
+Galactic code (XV, ET, SI): SI
+
+Number of days (int): 6
+
+Odometer at liftoff (int): 000100
+
+Odometer at touchdown (int):   001000
+
+Galactic traveler summary:
+	Code: SI
+	Days in orbit: 6
+	Liftoff odometer: 100
+	Touchdown odometer: 1000
+	Light-years traveled: 90.0
+	Cost in star credits: $ 190.0
+Ready for an out-of-this-world adventure (Y/X)? X
+
+Thank you for entrusting us with your joyride!

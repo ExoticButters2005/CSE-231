@@ -1,0 +1,26 @@
+INTERGALACTIC_BANNER = """
+Welcome to SpaceX Galactic Car Extravaganza!
+
+Prepare for an interstellar joyride with our cosmic cruisers!
+At the prompt, please enter:
+- Galactic code (XV, ET, SI)
+- Days of your interstellar joyride
+- Odometer at liftoff
+- Odometer at touchdown
+"""
+
+INTERGALACTIC_PROMPT = "Ready for an out-of-this-world adventure (Y/X)? "
+INVALID_CODE_PROMPT = "\n*** Invalid galactic code. Retry! ***"
+CUSTOMER_CODE_INPUT = "\nGalactic code (XV, ET, SI): "
+RENTAL_DAYS_INPUT = "\nNumber of days (int): "
+START_ODOMETER_INPUT = "\nOdometer at liftoff (int): "
+END_ODOMETER_INPUT = "\nOdometer at touchdown (int):   "
+
+"\nGalactic traveler summary:"
+"\tCode:"
+"\tDays in orbit:"
+"\tLiftoff odometer:"
+"\tTouchdown odometer:"
+"\tLight-years traveled:"
+"\tCost in star credits: $"
+"\nThank you for entrusting us with your joyride!"
